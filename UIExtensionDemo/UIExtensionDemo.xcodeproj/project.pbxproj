@@ -13,6 +13,12 @@
 		AC5CDFD12154DB3000F73501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5CDFD02154DB3000F73501 /* Assets.xcassets */; };
 		AC5CDFD42154DB3000F73501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5CDFD22154DB3000F73501 /* LaunchScreen.storyboard */; };
 		AC5CDFD72154DB3000F73501 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5CDFD62154DB3000F73501 /* main.m */; };
+		AC5CDFEA2154DFE600F73501 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5CDFDF2154DFE500F73501 /* UIColor+Extension.m */; };
+		AC5CDFEB2154DFE600F73501 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5CDFE22154DFE500F73501 /* UIButton+Extension.m */; };
+		AC5CDFEC2154DFE600F73501 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5CDFE32154DFE500F73501 /* UIImageView+Extension.m */; };
+		AC5CDFED2154DFE600F73501 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5CDFE62154DFE500F73501 /* UIBarButtonItem+Extension.m */; };
+		AC5CDFEE2154DFE600F73501 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5CDFE72154DFE500F73501 /* UIImage+Extension.m */; };
+		AC5CDFEF2154DFE600F73501 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5CDFE92154DFE500F73501 /* UILabel+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		AC5CDFD32154DB3000F73501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC5CDFD52154DB3000F73501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5CDFD62154DB3000F73501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC5CDFDE2154DFE500F73501 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		AC5CDFDF2154DFE500F73501 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		AC5CDFE02154DFE500F73501 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		AC5CDFE12154DFE500F73501 /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		AC5CDFE22154DFE500F73501 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		AC5CDFE32154DFE500F73501 /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		AC5CDFE42154DFE500F73501 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		AC5CDFE52154DFE500F73501 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		AC5CDFE62154DFE500F73501 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		AC5CDFE72154DFE500F73501 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		AC5CDFE82154DFE500F73501 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		AC5CDFE92154DFE500F73501 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 		AC5CDFC62154DB2F00F73501 /* UIExtensionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AC5CDFDD2154DF4100F73501 /* UIExtension */,
 				AC5CDFC72154DB2F00F73501 /* AppDelegate.h */,
 				AC5CDFC82154DB2F00F73501 /* AppDelegate.m */,
 				AC5CDFCA2154DB2F00F73501 /* ViewController.h */,
@@ -69,6 +88,25 @@
 				AC5CDFD62154DB3000F73501 /* main.m */,
 			);
 			path = UIExtensionDemo;
+			sourceTree = "<group>";
+		};
+		AC5CDFDD2154DF4100F73501 /* UIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AC5CDFE02154DFE500F73501 /* UIBarButtonItem+Extension.h */,
+				AC5CDFE62154DFE500F73501 /* UIBarButtonItem+Extension.m */,
+				AC5CDFE42154DFE500F73501 /* UIButton+Extension.h */,
+				AC5CDFE22154DFE500F73501 /* UIButton+Extension.m */,
+				AC5CDFE52154DFE500F73501 /* UIColor+Extension.h */,
+				AC5CDFDF2154DFE500F73501 /* UIColor+Extension.m */,
+				AC5CDFDE2154DFE500F73501 /* UIImage+Extension.h */,
+				AC5CDFE72154DFE500F73501 /* UIImage+Extension.m */,
+				AC5CDFE12154DFE500F73501 /* UIImageView+Extension.h */,
+				AC5CDFE32154DFE500F73501 /* UIImageView+Extension.m */,
+				AC5CDFE82154DFE500F73501 /* UILabel+Extension.h */,
+				AC5CDFE92154DFE500F73501 /* UILabel+Extension.m */,
+			);
+			path = UIExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5CDFEF2154DFE600F73501 /* UILabel+Extension.m in Sources */,
+				AC5CDFEB2154DFE600F73501 /* UIButton+Extension.m in Sources */,
+				AC5CDFED2154DFE600F73501 /* UIBarButtonItem+Extension.m in Sources */,
 				AC5CDFCC2154DB2F00F73501 /* ViewController.m in Sources */,
 				AC5CDFD72154DB3000F73501 /* main.m in Sources */,
 				AC5CDFC92154DB2F00F73501 /* AppDelegate.m in Sources */,
+				AC5CDFEC2154DFE600F73501 /* UIImageView+Extension.m in Sources */,
+				AC5CDFEA2154DFE600F73501 /* UIColor+Extension.m in Sources */,
+				AC5CDFEE2154DFE600F73501 /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
