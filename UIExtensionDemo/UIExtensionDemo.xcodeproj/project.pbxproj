@@ -22,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC0DA9482168918C00F3DBB4 /* UIExtensionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIExtensionHeader.h; sourceTree = "<group>"; };
 		AC5CDFC42154DB2F00F73501 /* UIExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIExtensionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5CDFC72154DB2F00F73501 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC5CDFC82154DB2F00F73501 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +106,7 @@
 				AC5CDFE32154DFE500F73501 /* UIImageView+Extension.m */,
 				AC5CDFE82154DFE500F73501 /* UILabel+Extension.h */,
 				AC5CDFE92154DFE500F73501 /* UILabel+Extension.m */,
+				AC0DA9482168918C00F3DBB4 /* UIExtensionHeader.h */,
 			);
 			path = UIExtension;
 			sourceTree = "<group>";
